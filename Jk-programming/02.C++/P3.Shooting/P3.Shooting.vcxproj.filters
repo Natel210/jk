@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="bullet.h">
+      <Filter>bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>player</Filter>
+    </ClInclude>
+    <ClInclude Include="uncuser.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="P3.Shooting.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="bullet.cpp">
+      <Filter>bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>player</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="bullet">
+      <UniqueIdentifier>{806f1ffd-d97e-4647-8ced-4731ae5bd249}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="player">
+      <UniqueIdentifier>{8ff1de9d-bfe4-4d81-9988-4d059c8bd0ab}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

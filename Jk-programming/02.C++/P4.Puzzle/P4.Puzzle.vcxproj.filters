@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="PuzzleBasic.h">
+      <Filter>PuzzleBasic</Filter>
+    </ClInclude>
+    <ClInclude Include="PuzzlePlayer.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlaySetting.h">
+      <Filter>PlaySetting</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="P4.Puzzle.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="PuzzleBasic.cpp">
+      <Filter>PuzzleBasic</Filter>
+    </ClCompile>
+    <ClCompile Include="PuzzlePlayer.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlaySetting.cpp">
+      <Filter>PlaySetting</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="PuzzleBasic">
+      <UniqueIdentifier>{b61e9096-1c7c-43dd-bb28-7766b52424e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player">
+      <UniqueIdentifier>{a8a1473a-0f3f-443c-b318-350dc0f71458}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlaySetting">
+      <UniqueIdentifier>{09e45232-6a33-45a1-91a7-dd6e14c32f78}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

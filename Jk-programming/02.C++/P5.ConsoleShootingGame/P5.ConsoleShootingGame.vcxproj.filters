@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AddHeader.h">
+      <Filter>00.StdHeader\Add</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>00.StdHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>00.StdHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Consoleframe.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterSet.h">
+      <Filter>Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="ShootingBullet.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="ShootingPlayer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="P5.ConsoleShootingGame.cpp" />
+    <ClCompile Include="AddHeader.cpp">
+      <Filter>00.StdHeader\Add</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>00.StdHeader</Filter>
+    </ClCompile>
+    <ClCompile Include="Consoleframe.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterSet.cpp">
+      <Filter>Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="ShootingPlayer.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="ShootingBullet.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="00.StdHeader">
+      <UniqueIdentifier>{063afd82-ebd5-45f5-80bc-a45fe9aefdb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.StdHeader\Add">
+      <UniqueIdentifier>{664d45fa-b634-46c2-b962-e611dd17cc6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map">
+      <UniqueIdentifier>{c0c95460-fb2f-4a34-b631-7ffc7b8ada3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Monster">
+      <UniqueIdentifier>{6190b527-ddef-4b75-82f1-04b67257ed7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player">
+      <UniqueIdentifier>{e7dca016-5c97-4441-9f2f-1439637ca23a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>StdHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>StdHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleScreen.h">
+      <Filter>ConsolScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleObject.h">
+      <Filter>ConsolObject</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsolePlayer.h">
+      <Filter>ConsolObject</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleMonster.h">
+      <Filter>ConsolObject</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleBullet.h">
+      <Filter>ConsolObject</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="P6.ShootingGame_NewDelete.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <Filter>StdHeader</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleScreen.cpp">
+      <Filter>ConsolScreen</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleObject.cpp">
+      <Filter>ConsolObject</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleMonster.cpp">
+      <Filter>ConsolObject</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsolePlayer.cpp">
+      <Filter>ConsolObject</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleBullet.cpp">
+      <Filter>ConsolObject</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="StdHeader">
+      <UniqueIdentifier>{bdb19e98-16e6-44d7-95d8-fc95b6c038a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ConsolScreen">
+      <UniqueIdentifier>{7694c6ea-a5ec-4700-ad8e-30fa77a1a38f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ConsolObject">
+      <UniqueIdentifier>{0b5378b2-7dcd-4bc7-82e0-1bf5b4b097ca}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

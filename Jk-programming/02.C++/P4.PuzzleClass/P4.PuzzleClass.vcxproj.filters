@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>StdHaeder</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>StdHaeder</Filter>
+    </ClInclude>
+    <ClInclude Include="PuzzleSize.h">
+      <Filter>PuzzleBit</Filter>
+    </ClInclude>
+    <ClInclude Include="PuzzleFrame.h">
+      <Filter>PuzzleBit</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerPuzzle.h">
+      <Filter>SetingPuzzle</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="P4.PuzzleClass.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <Filter>StdHaeder</Filter>
+    </ClCompile>
+    <ClCompile Include="PuzzleSize.cpp">
+      <Filter>PuzzleBit</Filter>
+    </ClCompile>
+    <ClCompile Include="PuzzleFrame.cpp">
+      <Filter>PuzzleBit</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerPuzzle.cpp">
+      <Filter>SetingPuzzle</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="PuzzleBasic">
+      <UniqueIdentifier>{7b418135-b523-4639-8e90-16364d259b7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StdHaeder">
+      <UniqueIdentifier>{434ec03b-9d6c-4f99-802a-fcc03cac2526}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PuzzleBit">
+      <UniqueIdentifier>{df68cf5b-7897-4bba-9f9e-2d76e5c771ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SetingPuzzle">
+      <UniqueIdentifier>{4076079a-34f5-4ed7-ad4c-e30c9bd4c4fa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

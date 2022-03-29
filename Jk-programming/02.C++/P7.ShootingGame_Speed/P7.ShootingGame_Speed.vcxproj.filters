@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="StdHaeder">
+      <UniqueIdentifier>{4cc9c76a-6338-4439-b93c-ba899a8fa272}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ConsoleSCreen">
+      <UniqueIdentifier>{bae1b2fd-20e6-489c-823f-2e657abed565}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Bullet_Speed.cpp" />
+    <ClCompile Include="ConsoleMonster_Speed.cpp" />
+    <ClCompile Include="ConsoleObject_Speed.cpp" />
+    <ClCompile Include="ConsolePlayer_Speed.cpp" />
+    <ClCompile Include="ConsoleScreen_Speed.cpp" />
+    <ClCompile Include="P7.ShootingGame_Speed.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Bullet_Speed.h" />
+    <ClInclude Include="ConsoleMonster_Speed.h" />
+    <ClInclude Include="ConsoleObject_Speed.h" />
+    <ClInclude Include="ConsolePlayer_Speed.h" />
+    <ClInclude Include="ConsoleScreen_Speed.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>
